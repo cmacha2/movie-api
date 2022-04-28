@@ -1,0 +1,17 @@
+.movieCard{
+    list-style: none; /* para quitarle los puntos de la lista osea del <ul> */
+    font-size:1.5rem ;
+    text-align: center;
+}
+
+.movieImage{
+    border-radius: 0.7rem;
+}
+
+
+@media (max-width: 560px) {
+    .movieImage {
+        width: 88%;
+        height: auto;
+    }
+}
