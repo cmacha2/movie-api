@@ -1,7 +1,30 @@
-.title {
+.title { 
   text-align: center;
-  font-size: 3rem;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
-    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding: 1px;
+  font-family: 'Raleway', cursive;
+  font-weight: 100;
+  position: relative;
+  background: linear-gradient(to right, black, #eee, black);
+}
+.title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  width: 600px;
+  margin-left: -300px;
+  margin-top: -220px;
+  height: 600px;
+  background: radial-gradient(50% 50%, ellipse closest-side, #444, black);
+  z-index: -1;
+}
+.title a {
+  background: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  letter-spacing: 30px;
+  color: white;
 }
