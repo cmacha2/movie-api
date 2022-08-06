@@ -1,34 +1,30 @@
-.searchContainer{
-    display: flex;
-    justify-content: center;
+.searchContainer {
+  display: flex;
+  justify-content: center;
 }
 
-.searchBox{
-    position: relative; /* yo quiero posicionar los demas elementos con respecto a este y los demas absolutos respectoa  el */
+.searchBox {
+  position: relative;
 }
 
-.searchButton{
-    position: absolute;
-    right: 0;
-    top: 0;
-    cursor: pointer;
-    height: 100%;
-    border: none;
-    border-radius: 10px;
-
+.searchButton {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  height: 100%;
 }
 
-.searchInput{
-    font-size: 1.2rem;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    padding: 5px 50px 5px 10px; /* pading para separar el texto intruducido del boton y de la derecha y la izquierda */
+.searchInput {
+  font-size: 1.2rem;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid white;
 }
 
 .searchInput:focus,
-.searchInput:focus{
-    outline:none;
-    border: 1px solid #f88ec2;
-    box-shadow: 0 0 5px #ebbed4;
+.searchButton:focus {
+  outline: none;
+  border: 1px solid #f88ec2;
+  box-shadow: 0 0 5px #ebbed4;
 }

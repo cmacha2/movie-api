@@ -1,26 +1,24 @@
-.detailsContainer{
-    display: flex; /* para poner los elementos uno alado del otro usamos flex y los elementos se convuierten en flex items */
-    justify-content: center; /* para centrar los elementos en el eje horizontal */
-    flex-wrap: wrap; /* esto dice que si no tenemos mas espacio para los elementos en la derecha me lo empuje hacia abajo */
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.col{
-    max-width: 400px;  /* para que los items tengan un ancho maximo de 400px */
-    margin: 15px; /* este margin es el margen entre las columnas osea los items flex y respecto al borde */
-    height: auto; /* para que no se defigure la imagen el auto seria automatico  */
-    height: 80%;
+.col {
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  width: 80%;
 }
 
 .movieImage {
-    border-radius: 15px; /* clase solo para la imagen darle su esquinas bordes */
+  border-radius: 15px;
 }
 
-.movieDetails{
-    font-size: 1.5rem; /* clase solo para el texto donde ponemos una fuente mas grande */
+.movieDetails {
+  font-size: 1.5rem;
 }
 
-.firstItem{
-    margin-top: 0;  /* clase al primer texto que es el TITULO para que quede alineado con la imagen , porque trae por defecto valores de margin */
-
+.firstItem {
+  margin-top: 0;
 }
-
